@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+
+}
+
+.grid-1{
+    display: flex;
+}
+
+header{
+    background-color: #f0f0f0;
+    border-width: thin;
+    border-bottom: solid black ;
+}
+
+header ul{
+    margin: 0;
+    display: inline;
+
+}
+header li{
+    margin: 0;
+  list-style-type: none;
+  cursor: pointer;
+}
+header li:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#hypen{
+    text-decoration: none;
+}
+
+.reddit-pic{
+    height: 75px; 
+}
+
+nav{
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: solid #5f99cf;
+    border-width: thick;
+    position: relative;
+}
+
+nav ul{
+  margin: 0;
+  list-style-type: none;
+}
+
+.grid-3{
+    display: flex;
+    background-color: #cee3f8;
+    justify-content: space-between;
+}
+
+.name> ul > li{
+    display: inline;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: verdana;
+    background-color: #fbfbfb;
+    margin-left: .1em;
+    margin-right: .1em;
+    padding-left: .3em;
+    padding-right: .3em;
+    cursor: pointer;
+}
+
+.user-profile{
+    background-color: #fbfbfb;
+    color: #2e5375;
+    border-top-left-radius: 5px;
+    float:right;
+    text-align:right;
+    padding-right: .3em;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.user-profile ul{
+    float: right;
+}
+
+.user-profile li{
+    display: inline;
+    list-style-type:none;
+    font-size: 20 px;
+}
+/* Arrow */
+.post-upvotes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;    
+    margin-left: 100px;
+}
+.arrow-up{
+border: 1px solid #353535;
+border-radius: 5px;
+ width: 60px;
+ background-color: #888888;
+ color: whitesmoke;
+ box-shadow: 2px 2px 5px 2px #888888;
+cursor: pointer;
+text-align: center;
+}
+.arrow-up:hover{
+    background-color: rgb(1, 105, 19);
+}
+.arrow-down{
+    border: 1px solid #353535;
+    border-radius: 5px;
+    width: 60px;
+    background-color: #888888;
+    box-shadow: 2px 2px 5px 2px #888888;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.arrow-down:hover{
+    background-color: chocolate;
+}
+ 
+/* Posts */
+.post-body{
+    margin-left: -25%;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.submit-link{
+    text-decoration: none;
+}
+
+.post-options{
+    display: inline-block;
+    color: rgb(49, 50, 51);
+    justify-content: flex-start;
+    margin-left: 70px;
+    font-weight: bold;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+.reddit-gold{
+    width: 99%;
+    height: 100%;
+    text-align: center;
+    border: solid rgb(219, 209, 181);
+}
+
+.reddit-gold div{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 1em;
+    color: rgb(56 53 45);
+}
+
+.bar-container{
+    margin-right: 40px;
+    margin-bottom: 1em;
+}
+
+.bar{
+    
+    border-radius: 10px;
+    background-color: #d6c741;
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.gold-percent{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+    color: rgb(56 53 45);
+}
+
+.reddit-gold-support{
+    background-color: whitesmoke;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1% 3%;
+    color: rgb(100, 100, 80);
+    box-shadow: 2px 2px 5px 2px #888888;
+    cursor: pointer;
+}
+
+.user-action-button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #bbdef5;
+    height: 3em;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    color: #294a66;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+    
+.user-action-button:hover{
+    background-color: #4a8eb6;
+    color: white;
+
+}
+.search-container{
+    display: grid;
+    margin-right: 2%;
+    justify-content: end;
+    margin-top: -15.5%;
+    }
+.search{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    margin-bottom: 4px;    
+}
+.search input{
+    font-size: 15px;
+    background-color: #cfcfcf;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+    margin-right: 10px;
+    transition-duration: 0.5s;
+    padding-left: 5px;
+}
+.search input:hover{
+    background-color: #969696;
+}
+.search button{
+    color: #000;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+    border: none;
+    transition-duration: 0.5s;
+}
+.search button:hover{
+    background-color: #999999;
+    transform: scale(1.1);
+}

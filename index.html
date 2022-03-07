@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968908.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <title>Reddit</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+
+        <ul class="grid-1">
+            <li class="my-subs"><strong>My Subreddit</strong></li>
+            <li id="hypen">-</li>
+            <li>Home</li>
+            <li id="hypen">-</li>
+            <li>All</li>
+            <li id="hypen">-</li>
+            <li>Random</li>
+            <li id="hypen">-</li>
+            <li>Users</li>
+        </ul>
+
+    </header>
+
+    <nav class="grid-3">
+        <img src="./Reddit Logo.png" alt="REDDIT" class="reddit-pic">
+
+        <div class="name">
+            <ul>
+                <li>Hot</li>
+                <li>News</li>
+                <li>Rising</li>
+                <li>Wiki</li>
+                <li>Top</li>
+            </ul>
+        </div>
+
+        <div class="user-profile">
+            <ul>
+                <li>idivyashgoyani</li>
+                <li>(1300)</li>
+                <li><strong>Preferences</strong></li>
+                &nbsp;&nbsp;
+                <li>Logout</li>
+                &nbsp;
+            </ul>
+        </div>
+
+
+    </nav>
+
+    <div class="post-upvotes">
+        <button class="arrow-up" onclick="upvote()">Like</button>
+        <br>
+        <div id="votes">1000</div>
+        <br>
+       <button class="arrow-down" onclick="downvote()" >Dislike</button>
+
+    </div>
+
+    <div class="post-body">
+        <a href="'#" class="post-title"> Make a Reddit Clone</a>
+        <p> Submitted 3 Hours Ago by <a class='submit-link' href='#'> idivyashgoyani </a> to <a class='submit-link'
+                href='#'>/r/redditclones</a></p>
+
+        <div class="post-options">
+            <span> Comments </span>
+            <span> Shares </span>
+            <span> Save </span>
+            <span> Hide </span>
+            <span> Report </span>
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <div class="search-container">
+        <div class="search">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <button class='user-action-button'>
+            Submit a New Link
+        </button>
+
+
+        <button class='user-action-button'>
+            Submit a New Text Post
+        </button>
+
+
+        <button class='user-action-button'>
+            Create Your Own Sub-Reddit
+        </button>
+
+        <div class="reddit-gold">
+            <div> Daily Reddit Gold Goal</div>
+
+            <div>
+                <div class="bar-container">
+                    <div class="bar"></div>
+                </div>
+
+                <span class="gold-percent"> 75% </span>
+            </div>
+            <button class="reddit-gold-support"> help support reddit</button>
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
